@@ -1,0 +1,70 @@
+# Python
+.Python.
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PKG-INFO
+PRODUCTS
+# Byte-code files
+*.pyc
+*.pyd
+*.pyo
+__pycache__/
+
+# Virtual Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs and Editors
+.idea/  # For PyCharm and other JetBrains IDEs
+.vscode/  # For VS Code
+*.swp
+*~
+.DS_Store # macOS-specific file
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Deep Learning specific files
+# Datasets and large data files
+data/
+datasets/
+
+# Saved models and checkpoints
+models/
+checkpoints/
+*.h5
+*.ckpt
+*.pth
+*.sav
+*.pkl
+
+# Logs and results
+logs/
+results/
+htmlcov/  # coverage reports
+.tox/
+.coverage
+.cache
+
+# Configuration/secret files (if not managed otherwise)
+.env  # Environment variables
+config.yaml
+secrets.json
